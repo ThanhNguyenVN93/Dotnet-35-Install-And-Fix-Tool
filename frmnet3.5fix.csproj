@@ -7,7 +7,7 @@
     <ProjectGuid>{7A47EE49-9E31-4A19-B5E9-6FC7B111326A}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>frmnet3._5fix</RootNamespace>
-    <AssemblyName>frmnet3.5fix</AssemblyName>
+    <AssemblyName>Dotnet 35 Install And Fix Tool</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -34,6 +34,9 @@
   </PropertyGroup>
   <PropertyGroup>
     <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>dotnet.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -95,6 +98,10 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="bin\Debug\images.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include=".gitignore" />
+    <Content Include="dotnet.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

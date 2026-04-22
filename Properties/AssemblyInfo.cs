@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("frmnet3.5fix")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyTitle("Dotnet 35 Install And Fix Tool")]
+[assembly: AssemblyDescription("Helping users install .NET 3.5 and troubleshoot errors more easily")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("frmnet3.5fix")]
+[assembly: AssemblyCompany("Thanhcode93")]
+[assembly: AssemblyProduct("Dotnet 35 Install And Fix Tool")]
 [assembly: AssemblyCopyright("Copyright ©  2026")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -17,7 +17,7 @@ using System.Runtime.InteropServices;
 // Setting ComVisible to false makes the types in this assembly not visible
 // to COM components.  If you need to access a type in this assembly from
 // COM, set the ComVisible attribute to true on that type.
-[assembly: ComVisible(false)]
+[assembly: ComVisible(true)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
 [assembly: Guid("7a47ee49-9e31-4a19-b5e9-6fc7b111326a")]
